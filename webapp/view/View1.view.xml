@@ -1,0 +1,13 @@
+<mvc:View controllerName="commonfileupload.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns:core="sap.ui.core" xmlns="sap.m" class="sapUiSizeCompact">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <core:Fragment fragmentName="commonfileupload.fragments.commonUploadUI" type="XML" />
+        </content>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer />
+                <Button text="{i18n>DOWNLOAD_TEMPLATE_TXT}" type="accept"/>
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>
